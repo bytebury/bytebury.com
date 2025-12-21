@@ -1,5 +1,5 @@
 const el = document.querySelector("[data-typewriter]");
-const words = el.dataset.typewriter.split(",").map((word) => word.trim());
+const words = el.dataset.typewriter.split(",");
 
 let i = 0, j = 0, isDelete = false;
 
