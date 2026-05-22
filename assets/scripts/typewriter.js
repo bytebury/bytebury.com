@@ -1,22 +1,37 @@
-const el = document.querySelector("[data-typewriter]");
-const words = el.dataset.typewriter.split(",");
+(() => {
+	const el = document.querySelector("[data-typewriter]");
+	if (!el) return;
 
-let i = 0, j = 0, isDelete = false;
+	const text = el.dataset.typewriter;
+	const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-function type() {
-	const current = words[i];
-	el.textContent = current.substring(0, j);
+	function start() {
+		if (reduceMotion) {
+			el.textContent = text;
+			el.classList.add("is-done");
+			return;
+		}
 
-	if (!isDelete && j < current.length) {
-		j++;
-		setTimeout(type, 150);
-	} else if (isDelete && j > 0) {
-		j--;
-		setTimeout(type, 50);
-	} else {
-		if (i === words.length - 1) return;
-		isDelete = !isDelete;
-		if (!isDelete) i++;
-		setTimeout(type, 750);
+		let i = 0;
+		el.textContent = "";
+		el.classList.add("is-typing");
+
+		const tick = () => {
+			if (i <= text.length) {
+				el.textContent = text.substring(0, i++);
+				setTimeout(tick, 65);
+			} else {
+				el.classList.remove("is-typing");
+				el.classList.add("is-done");
+			}
+		};
+
+		setTimeout(tick, 350);
 	}
-}
+
+	if (document.readyState === "loading") {
+		document.addEventListener("DOMContentLoaded", start);
+	} else {
+		start();
+	}
+})();
