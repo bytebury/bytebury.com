@@ -373,3 +373,27 @@ footer#primary_footer a {
 footer#primary_footer a:hover {
 	color: var(--accent);
 }
+
+a.card .card-title {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+a.card .card-icon {
+	flex: none;
+	width: 24px;
+	height: 24px;
+	border-radius: 6px;
+	object-fit: contain;
+}
+
+a.card span.card-icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.8rem;
+	font-weight: 600;
+	color: var(--text-muted);
+	border: 1px solid var(--border);
+}

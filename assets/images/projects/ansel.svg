@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" stroke="#241e1b" stroke-width="11" stroke-linejoin="round" stroke-linecap="round">
+<g transform="rotate(-9 256 240)">
+<path fill="#f1d0ad" d="M111 210 Q117 106 169 99 Q206 94 236 79 Q294 51 325 103 L370 201Z"/>
+<path fill="#c49a76" stroke="none" d="M127 182 Q139 119 183 115 L231 104 Q185 140 173 175Z"/>
+<path fill="#241e1b" d="M115 191 Q245 153 353 168 L370 201 L111 224Z"/>
+<ellipse cx="254" cy="235" rx="224" ry="66" fill="#b58b6e"/>
+<path fill="none" stroke="#f1d0ad" stroke-width="9" d="M48 227 Q120 170 290 177 Q411 181 455 218"/>
+</g>
+<path fill="#ff7629" d="M134 264 Q153 211 263 208 Q372 202 405 271 L440 280 L411 306 Q427 346 390 376 L134 377 Q94 350 108 309 L80 290Z"/>
+<path fill="#f96624" d="M137 310 Q57 310 51 405 Q74 373 111 359 Q81 393 96 430 Q119 382 151 366 M384 315 Q458 320 463 405 Q439 380 411 365 L427 434 Q393 410 377 370"/>
+<ellipse cx="205" cy="269" rx="23" ry="27" fill="#241e1b" stroke="none"/><ellipse cx="335" cy="260" rx="23" ry="27" fill="#241e1b" stroke="none"/>
+<g fill="#fff" stroke="none"><circle cx="212" cy="259" r="7"/><circle cx="342" cy="250" r="7"/></g>
+<path fill="none" stroke-width="9" d="M251 277 Q270 301 289 275"/>
+<rect x="212" y="304" width="45" height="23" rx="8" fill="#dedee0"/>
+<path fill="#dedee0" d="M190 327 H255 L274 309 H377 Q389 309 389 322 V416 Q389 428 377 428 H190 Q178 428 178 416 V339 Q178 327 190 327Z"/>
+<path fill="#333235" stroke="none" d="M184 349 H383 V410 H184Z"/>
+<rect x="342" y="321" width="31" height="17" rx="4" fill="#241e1b" stroke="none"/>
+<circle cx="302" cy="380" r="49" fill="#dedee0"/><circle cx="302" cy="380" r="35" fill="#353438" stroke-width="6"/>
+<path d="M282 378 Q283 361 300 357" fill="none" stroke="#85858b" stroke-width="9"/>
+<path fill="#ff7629" d="M203 377 Q207 346 182 330 Q143 304 112 334 Q78 368 111 401 Q145 432 184 409 Q197 399 172 377 Q190 383 203 377Z"/>
+<path fill="#ff7629" d="M365 377 Q361 346 386 330 Q425 304 456 334 Q490 368 457 401 Q423 432 384 409 Q371 399 396 377 Q378 383 365 377Z"/>
+</svg>
